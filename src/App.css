@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans Condensed';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #c9c9c9; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(39, 39, 39); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0); 
+  }
